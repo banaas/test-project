@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 import { robots } from './robots';
 
+// Renders the App 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

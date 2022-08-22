@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CardList from './CardList';
-import { robots } from './robots';
 import SearchBox from './SearchBox';
+import './App.css';
 
 
 
@@ -10,25 +10,44 @@ class App extends Component {
     constructor() {
         super()
         this.state = {
-            robots: 'robots',
+            robots: [],
             searchfield: ''
         }
     }
 
-    onSearchChange(event) {
-        console.log(event.target.value);
+// fetches the users from the JSON site
+componentDidMount() {
+    fetch('https://jsonplaceholder.typicode.com/users')
+      .then(response=> response.json())
+      .then(users => {this.setState({ robots: users})});
+  }
+
+    onSearchChange = (event) => {
+        this.setState({ searchfield: event.target.value })
     }
 
+// Filters the cards as the SearchBar is used
     render () {
+        const { robots, searchfield } = this.state;
+        const filteredRobots = this.state.robots.filter(robots => {
+            return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+        })
+
+// Loading screen in-case the Robot Cards take too long to render for the page
+        if (robots.length === 0) {
+            return <h1>Loading...</h1>
+        } else {
+ 
+ // Displays the page header, along with the CardList and SearchBox           
     return (
         <div className='tc'>
-        <h1>RoboFriends</h1>
+        <h1 className='f2'>RoboFriends</h1>
         <SearchBox searchChange={this.onSearchChange}/>
-        <CardList robots={robots}/>
+        <CardList robots={filteredRobots}/>
         </div>
-
     );
     }
+}
 }
 
 export default App;
