@@ -10,8 +10,8 @@
   "runtime~main.js": "/test-project/static/js/runtime~main.eb1da8ff.js",
   "runtime~main.js.map": "/test-project/static/js/runtime~main.eb1da8ff.js.map",
   "static/media/App.css": "/test-project/static/media/SEGA.12a3db8b.woff",
-  "static/css/main.f4bb0231.chunk.css.map": "/test-project/static/css/main.f4bb0231.chunk.css.map",
   "static/css/2.345828b3.chunk.css.map": "/test-project/static/css/2.345828b3.chunk.css.map",
+  "static/css/main.f4bb0231.chunk.css.map": "/test-project/static/css/main.f4bb0231.chunk.css.map",
   "index.html": "/test-project/index.html",
   "precache-manifest.58d739750de18f2586ceaa59ae2242e1.js": "/test-project/precache-manifest.58d739750de18f2586ceaa59ae2242e1.js",
   "service-worker.js": "/test-project/service-worker.js"
