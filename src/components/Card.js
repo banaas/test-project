@@ -1,5 +1,4 @@
 import React from 'react';
-import { robots } from '../robots';
 
 // Displays each individual card, with a unique name, email, and robot ID.
 const Card = ({ name, email, id }) => {
