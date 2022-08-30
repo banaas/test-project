@@ -17,7 +17,7 @@ class App extends Component {
         }
     }
 
-// fetches the users from the JSON site
+// fetches the users from the JSONPlaceholder API site
 componentDidMount() {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response=> response.json())
