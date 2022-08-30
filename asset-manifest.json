@@ -1,7 +1,7 @@
 {
   "main.css": "/test-project/static/css/main.f4bb0231.chunk.css",
-  "main.js": "/test-project/static/js/main.b46f8571.chunk.js",
-  "main.js.map": "/test-project/static/js/main.b46f8571.chunk.js.map",
+  "main.js": "/test-project/static/js/main.a91d9c21.chunk.js",
+  "main.js.map": "/test-project/static/js/main.a91d9c21.chunk.js.map",
   "static/js/1.f99921d6.chunk.js": "/test-project/static/js/1.f99921d6.chunk.js",
   "static/js/1.f99921d6.chunk.js.map": "/test-project/static/js/1.f99921d6.chunk.js.map",
   "static/css/2.345828b3.chunk.css": "/test-project/static/css/2.345828b3.chunk.css",
@@ -10,9 +10,9 @@
   "runtime~main.js": "/test-project/static/js/runtime~main.eb1da8ff.js",
   "runtime~main.js.map": "/test-project/static/js/runtime~main.eb1da8ff.js.map",
   "static/media/App.css": "/test-project/static/media/SEGA.12a3db8b.woff",
-  "static/css/2.345828b3.chunk.css.map": "/test-project/static/css/2.345828b3.chunk.css.map",
   "static/css/main.f4bb0231.chunk.css.map": "/test-project/static/css/main.f4bb0231.chunk.css.map",
+  "static/css/2.345828b3.chunk.css.map": "/test-project/static/css/2.345828b3.chunk.css.map",
   "index.html": "/test-project/index.html",
-  "precache-manifest.58d739750de18f2586ceaa59ae2242e1.js": "/test-project/precache-manifest.58d739750de18f2586ceaa59ae2242e1.js",
+  "precache-manifest.009092c309c8c49411e51d92556b320b.js": "/test-project/precache-manifest.009092c309c8c49411e51d92556b320b.js",
   "service-worker.js": "/test-project/service-worker.js"
 }
