@@ -4,7 +4,7 @@ import Card from "./Card"
 const CardList = ({ robots }) => {
 
 /* Created a map of the Card List to implement all names in the robots.js
-array */
+API */
         return (
             <div>
                 {robots.map((user, i) => {
